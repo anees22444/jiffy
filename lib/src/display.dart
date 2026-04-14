@@ -1,4 +1,5 @@
 import 'package:intl/intl.dart';
+import 'utils/replace.dart';
 
 import 'getter.dart';
 import 'enums/unit.dart';
@@ -25,7 +26,8 @@ class Display {
     final localeOrdinal = _getLocaleOrdinal(locale, _getter.date(dateTime));
     final newPattern =
         _replaceLocaleOrdinalDatePattern(escapedPattern, localeOrdinal);
-    return DateFormat(newPattern).format(dateTime);
+    final formatted = DateFormat(newPattern).format(dateTime);
+    return replaceToLocaleNum(formatted, locale.code());
   }
 
   String fromAsRelativeDateTime(DateTime firstDateTime, DateTime secondDateTime,
