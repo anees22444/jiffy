@@ -127,19 +127,6 @@ Jiffy supports a wide range of locales. Here's a list of supported locale codes:
 | **Czech** | `cs` |
 
 
-## Contributing
-
-For contribution guidelines, see [CONTRIBUTING](./CONTRIBUTING.md).
-
-## Support
-
-Reach out to me at one of the following places!
-
-- Email me at [jama3137@gmail.com](mailto:jama3137@gmail.com)
-- LinkedIn [Jama Mohamed](https://www.linkedin.com/in/jama-mohamed/)
-- Twitter [timedjama5262](https://twitter.com/timedjama5262)
-
-
 ## License
 
 ```
