@@ -1,0 +1,18 @@
+name: jiffy
+description: Jiffy is a date time dart package for parsing, manipulating, querying and formatting dates and time
+version: 6.3.2
+homepage: https://github.com/jama5262/jiffy
+repository: https://github.com/jama5262/jiffy
+issue_tracker: https://github.com/jama5262/jiffy/issues
+documentation: https://github.com/jama5262/jiffy/tree/master/doc
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  intl: ">=0.19.0 <0.21.0"
+
+dev_dependencies:
+  lints: ">=2.0.1 <4.0.0"
+  test: ^1.16.5
+  coverage: ^1.6.3
