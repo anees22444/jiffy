@@ -30,7 +30,8 @@ import 'locales/ur_locale.dart';
 Map<String, Locale> _supportedLocales = {
   'en': EnLocale(),
   'en_us': EnUsLocale(),
-  'ur_pk': EnUsLocale(),
+  'ur_pk': UrLocale(),
+  'ur': UrLocale(),
   'en_sg': EnSgLocale(),
   'en_au': EnAuLocale(),
   'en_ca': EnCaLocale(),
